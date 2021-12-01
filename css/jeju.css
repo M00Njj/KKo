@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body; h1, h2, h3, h4, h5, h6 figure { margin: 0; padding: 0; }
+ul li { list-style: none; }
+a { text-decoration: none; }
+address { font-style: normal; }
+small { font-size: 1em; }
+.hidden { position: absolute; left: -9999px; }
+body { font-family: 'Noto Sans KR', sans-serif; }
+
+#header { height: 500px; text-align: center; color: #fff;
+  background: url(../images/jeju.jpg) no-repeat center center / cover; }
+#header hgroup { padding-top: 120px; }
+#header hgroup h1 { font-size: 100px;  }
+#header hgroup h2 { font-size: 40px; font-weight: normal; }
+
+#gnb { overflow: hidden; width: 1200px;
+margin: 0 auto; position: relative; top: -50px; }
+#gnb ul {}
+#gnb ul  li { width: 25%; height: 60px; float: left; }
+#gnb ul  li a { display: block; height: 60px;
+  background: #4836d7; color: #fff;
+  line-height: 100px; text-align: center; }
+#gnb ul li a:hover { background: #bbf78c; color: #000; }
+#content { width: 1200px; margin: 100px auto 50px; }
+#content article h3 { margin: 20px; 0; }
+#content article figure { margin-bottom: 20px; }
+#footer { background: #004e80; color: #fff;
+text-align: center; }
+#footer p { margin: 20px 0; }
+#footer address {}
+#footer small {}
